@@ -16,7 +16,7 @@ public class Arrays {
         return intArray;
     }
 
-    public static void printArrayContent(int array[])
+    public static void printArrayContent(int[] array)
     {
         System.out.println("Pole obsahuje: ");
         for (int i : array)
