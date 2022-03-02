@@ -1,9 +1,15 @@
 package opp.ulohy;
 
+import opp.ulohy.utility.Zklavesnice;
+
 public class Zodiac {
 
-    public static void getZodiac(int day, int month)
+    public static void getZodiac()
     {
+        System.out.println("Napis datum narodenia...");
+        int day = Zklavesnice.readInt("Den: ");
+        int month = Zklavesnice.readInt("Mesiac: ");
+
         // Overovanie vstupnych premennych
         if (month < 1 || month > 12)
         {
@@ -151,4 +157,5 @@ public class Zodiac {
             }
         }
     }
+
 }
