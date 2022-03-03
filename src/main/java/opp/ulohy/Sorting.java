@@ -1,6 +1,5 @@
 package opp.ulohy;
 
-import java.util.Arrays;
 
 public class Sorting {
     public static int[] sortArray(int[] array)
