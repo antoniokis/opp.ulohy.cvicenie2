@@ -18,7 +18,7 @@ public class Arrays {
 
     public static void printArrayContent(int[] array)
     {
-        System.out.println("Pole obsahuje: ");
+        System.out.println("\nPole obsahuje: ");
         for (int i : array)
         {
             System.out.print(i + " ");
